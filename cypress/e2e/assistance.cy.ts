@@ -30,5 +30,6 @@ describe('Assistance page', () => {
         as.getTextFormInput()
             .type('Ceci est un test')
             .should('have.value', 'Ceci est un test');
+            // tests commit
     })
 })
